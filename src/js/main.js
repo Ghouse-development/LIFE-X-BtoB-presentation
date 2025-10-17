@@ -7,7 +7,7 @@
 // Configuration
 // ===================================
 const CONFIG = {
-    totalSections: 7,
+    totalSections: 15,
     animationDuration: 0.6,
     imageBasePath: 'resources/image/gaikan/'
 };
@@ -186,27 +186,48 @@ function animateSectionContent(sectionNumber) {
     const section = document.querySelector(`[data-section="${sectionNumber}"]`);
     if (!section) return;
 
+    // Generic animation for all sections
+    const cards = section.querySelectorAll('.spec-card, .option-pack, .equipment-card, .category-card, .support-category-card, .benefit-card, .approach-card, .philosophy-item');
+    const items = section.querySelectorAll('.position-item, .plan-stat, .stat-card');
+
+    if (cards.length > 0) {
+        gsap.fromTo(cards,
+            { opacity: 0, y: 20 },
+            {
+                opacity: 1,
+                y: 0,
+                duration: 0.5,
+                stagger: 0.1,
+                ease: 'power2.out'
+            }
+        );
+    }
+
+    if (items.length > 0) {
+        gsap.fromTo(items,
+            { opacity: 0, scale: 0.9 },
+            {
+                opacity: 1,
+                scale: 1,
+                duration: 0.6,
+                stagger: 0.15,
+                ease: 'back.out(1.2)'
+            }
+        );
+    }
+
+    // Specific animations for certain sections
     switch(sectionNumber) {
         case 1:
             animateOpening(section);
             break;
-        case 2:
-            animateCrisis(section);
-            break;
-        case 3:
-            animateProduct(section);
-            break;
-        case 4:
-            animateRevenue(section);
-            break;
         case 5:
-            animateSupport(section);
+            // Gallery section
+            animateGallery(section);
             break;
-        case 6:
-            animateUrgency(section);
-            break;
-        case 7:
-            animateClosing(section);
+        case 13:
+            // Profit simulation with numbers
+            animateRevenue(section);
             break;
     }
 }
@@ -230,24 +251,9 @@ function animateOpening(section) {
     }
 }
 
-function animateCrisis(section) {
-    const items = section.querySelectorAll('.crisis-item');
-
-    gsap.fromTo(items,
-        { opacity: 0, y: 30 },
-        {
-            opacity: 1,
-            y: 0,
-            duration: 0.6,
-            stagger: 0.2,
-            ease: 'power2.out'
-        }
-    );
-}
-
-function animateProduct(section) {
-    const gallery = section.querySelector('.product-gallery');
-    const specs = section.querySelectorAll('.spec-item');
+function animateGallery(section) {
+    const gallery = section.querySelector('.gallery-container');
+    const thumbnails = section.querySelectorAll('.gallery-thumbnail');
 
     if (gallery) {
         gsap.fromTo(gallery,
@@ -256,16 +262,16 @@ function animateProduct(section) {
         );
     }
 
-    if (specs.length) {
-        gsap.fromTo(specs,
-            { opacity: 0, y: 20 },
+    if (thumbnails.length) {
+        gsap.fromTo(thumbnails,
+            { opacity: 0, scale: 0.8 },
             {
                 opacity: 1,
-                y: 0,
-                duration: 0.6,
-                stagger: 0.15,
+                scale: 1,
+                duration: 0.4,
+                stagger: 0.05,
                 delay: 0.3,
-                ease: 'power2.out'
+                ease: 'back.out(1.5)'
             }
         );
     }
@@ -295,92 +301,6 @@ function animateRevenue(section) {
     });
 }
 
-function animateSupport(section) {
-    const statItems = section.querySelectorAll('.stat-item');
-    const supportItems = section.querySelectorAll('.support-item');
-
-    if (statItems.length) {
-        gsap.fromTo(statItems,
-            { opacity: 0, y: 30 },
-            {
-                opacity: 1,
-                y: 0,
-                duration: 0.6,
-                stagger: 0.1,
-                ease: 'power2.out'
-            }
-        );
-    }
-
-    if (supportItems.length) {
-        gsap.fromTo(supportItems,
-            { opacity: 0, y: 20 },
-            {
-                opacity: 1,
-                y: 0,
-                duration: 0.5,
-                stagger: 0.1,
-                delay: 0.4,
-                ease: 'power2.out'
-            }
-        );
-    }
-}
-
-function animateUrgency(section) {
-    const cards = section.querySelectorAll('.urgency-card');
-
-    gsap.fromTo(cards,
-        { opacity: 0, x: -30 },
-        {
-            opacity: 1,
-            x: 0,
-            duration: 0.7,
-            stagger: 0.2,
-            ease: 'power2.out'
-        }
-    );
-}
-
-function animateClosing(section) {
-    const title = section.querySelector('.closing-title');
-    const message = section.querySelector('.closing-message');
-    const cta = section.querySelector('.closing-cta');
-    const company = section.querySelector('.closing-company');
-
-    const timeline = gsap.timeline();
-
-    if (title) {
-        timeline.fromTo(title,
-            { opacity: 0, y: 30 },
-            { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out' }
-        );
-    }
-
-    if (message) {
-        timeline.fromTo(message,
-            { opacity: 0, y: 20 },
-            { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' },
-            '-=0.3'
-        );
-    }
-
-    if (cta) {
-        timeline.fromTo(cta,
-            { opacity: 0, scale: 0.9 },
-            { opacity: 1, scale: 1, duration: 0.6, ease: 'back.out(1.2)' },
-            '-=0.2'
-        );
-    }
-
-    if (company) {
-        timeline.fromTo(company,
-            { opacity: 0, y: 20 },
-            { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' },
-            '-=0.2'
-        );
-    }
-}
 
 // ===================================
 // Progress & Button States
