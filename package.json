@@ -1,0 +1,24 @@
+{
+  "name": "lifex-btob-presentation",
+  "version": "1.0.0",
+  "description": "LIFE X BtoB Presentation - Interactive Web Presentation",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx http-server -p 8000 -o",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ghouse-development/LIFE-X-BtoB-presentation.git"
+  },
+  "keywords": [
+    "presentation",
+    "lifex",
+    "btob",
+    "interactive"
+  ],
+  "author": "G House Corporation",
+  "license": "UNLICENSED",
+  "private": true
+}

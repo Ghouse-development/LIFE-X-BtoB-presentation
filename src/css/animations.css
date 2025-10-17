@@ -1,0 +1,307 @@
+/* ===================================
+   LIFE X BtoB Presentation
+   Animations & Transitions
+   =================================== */
+
+/* Fade In Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDelay {
+    0%, 30% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease forwards;
+}
+
+.fade-in-delay {
+    animation: fadeInDelay 1.5s ease forwards;
+}
+
+/* Scale In Animation */
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.scale-in {
+    animation: scaleIn 0.6s ease forwards;
+}
+
+/* Slide In Animations */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-in-left {
+    animation: slideInLeft 0.8s ease forwards;
+}
+
+.slide-in-right {
+    animation: slideInRight 0.8s ease forwards;
+}
+
+.slide-in-up {
+    animation: slideInUp 0.8s ease forwards;
+}
+
+/* Stagger Animation Delays */
+.stagger-1 { animation-delay: 0.1s; opacity: 0; }
+.stagger-2 { animation-delay: 0.2s; opacity: 0; }
+.stagger-3 { animation-delay: 0.3s; opacity: 0; }
+.stagger-4 { animation-delay: 0.4s; opacity: 0; }
+.stagger-5 { animation-delay: 0.5s; opacity: 0; }
+.stagger-6 { animation-delay: 0.6s; opacity: 0; }
+
+/* Pulse Animation */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Float Animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.float {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Number Counter Animation */
+@keyframes countUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.count-up {
+    animation: countUp 1s ease forwards;
+}
+
+/* Highlight Animation */
+@keyframes highlight {
+    0% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+.highlight-animate {
+    animation: highlight 1.5s ease;
+}
+
+/* Shimmer Effect */
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.shimmer {
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(255, 255, 255, 0.3) 50%,
+        transparent 100%
+    );
+    background-size: 1000px 100%;
+    animation: shimmer 2s infinite;
+}
+
+/* Section Transition Classes */
+.section-enter {
+    animation: fadeIn 0.6s ease forwards;
+}
+
+.section-exit {
+    animation: fadeOut 0.6s ease forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+/* Hover Effects */
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading Animation */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loading {
+    animation: spin 1s linear infinite;
+}
+
+/* Reveal Animation (for text) */
+@keyframes revealText {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.reveal-text {
+    animation: revealText 1s ease forwards;
+}
+
+/* Border Draw Animation */
+@keyframes borderDraw {
+    0% {
+        stroke-dashoffset: 1000;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.border-draw {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: borderDraw 2s ease forwards;
+}
+
+/* Gradient Shift */
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-animate {
+    background-size: 200% 200%;
+    animation: gradientShift 3s ease infinite;
+}
+
+/* Attention Seeker */
+@keyframes attention {
+    0%, 100% {
+        transform: scale(1);
+    }
+    10%, 20% {
+        transform: scale(0.95);
+    }
+    30%, 50%, 70%, 90% {
+        transform: scale(1.05);
+    }
+    40%, 60%, 80% {
+        transform: scale(1);
+    }
+}
+
+.attention {
+    animation: attention 2s ease;
+}
+
+/* Reduce Motion for Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
