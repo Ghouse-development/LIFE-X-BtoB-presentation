@@ -18,7 +18,16 @@ const CONFIG = {
 const state = {
     currentSection: 1,
     galleryImages: [],
-    isAnimating: false
+    filteredImages: [],
+    currentImageIndex: 0,
+    currentPage: 0,
+    imagesPerPage: 18,
+    filters: {
+        size: 'all',
+        direction: 'all'
+    },
+    isAnimating: false,
+    slideshowInterval: null
 };
 
 // ===================================
@@ -327,7 +336,7 @@ function updateButtonStates() {
 // Gallery
 // ===================================
 async function initGallery() {
-    // Get all images from the gaikan folder (57 images total)
+    // Get all images from the gaikan folder (40 images - excluding generic ones)
     state.galleryImages = [
         'パース外観　28-40-N-12-001.jpg',
         'パース外観　28-45-E-12-002.jpg',
@@ -371,39 +380,142 @@ async function initGallery() {
         '外観3.jpg'
     ];
 
+    state.filteredImages = [...state.galleryImages];
+
+    initGalleryControls();
     renderGalleryThumbnails();
+    updateGalleryInfo();
+}
+
+function initGalleryControls() {
+    // Filter buttons
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const filterType = btn.dataset.filterType;
+            const filterValue = btn.dataset.filterValue;
+
+            // Update active state for this filter group
+            document.querySelectorAll(`[data-filter-type="${filterType}"]`).forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            // Update filter state
+            state.filters[filterType] = filterValue;
+            applyFilters();
+        });
+    });
+
+    // View toggle buttons
+    const viewBtns = document.querySelectorAll('.view-btn');
+    viewBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const viewMode = btn.dataset.view;
+            viewBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            if (viewMode === 'slideshow') {
+                startSlideshow();
+            } else {
+                stopSlideshow();
+            }
+        });
+    });
+
+    // Navigation arrows
+    const prevBtn = document.getElementById('gallery-prev');
+    const nextBtn = document.getElementById('gallery-next');
+    if (prevBtn) prevBtn.addEventListener('click', () => navigateGallery('prev'));
+    if (nextBtn) nextBtn.addEventListener('click', () => navigateGallery('next'));
+
+    // Pagination
+    const paginationPrev = document.getElementById('pagination-prev');
+    const paginationNext = document.getElementById('pagination-next');
+    if (paginationPrev) paginationPrev.addEventListener('click', () => changePage('prev'));
+    if (paginationNext) paginationNext.addEventListener('click', () => changePage('next'));
+
+    // Fullscreen
+    const fullscreenBtn = document.getElementById('fullscreen-btn');
+    if (fullscreenBtn) {
+        fullscreenBtn.addEventListener('click', () => {
+            const galleryMain = document.querySelector('.gallery-main');
+            if (galleryMain.requestFullscreen) {
+                galleryMain.requestFullscreen();
+            }
+        });
+    }
+}
+
+function applyFilters() {
+    const { size, direction } = state.filters;
+
+    state.filteredImages = state.galleryImages.filter(imageName => {
+        // Parse image filename: パース外観　28-40-N-12-001.jpg
+        const match = imageName.match(/(\d+)-\d+-([NESW])-/);
+        if (!match) return true; // Include generic images
+
+        const imageSize = match[1];
+        const imageDirection = match[2];
+
+        const sizeMatch = size === 'all' || imageSize === size;
+        const directionMatch = direction === 'all' || imageDirection === direction;
+
+        return sizeMatch && directionMatch;
+    });
+
+    state.currentPage = 0;
+    state.currentImageIndex = 0;
+    renderGalleryThumbnails();
+    updateMainImage();
+    updateGalleryInfo();
+    updatePagination();
 }
 
 function renderGalleryThumbnails() {
     if (!DOM.galleryThumbnails) return;
 
-    // Clear existing thumbnails
     DOM.galleryThumbnails.innerHTML = '';
 
-    // Create thumbnails (show first 18 design types)
-    const displayImages = state.galleryImages.slice(0, 18);
+    const startIndex = state.currentPage * state.imagesPerPage;
+    const endIndex = Math.min(startIndex + state.imagesPerPage, state.filteredImages.length);
+    const displayImages = state.filteredImages.slice(startIndex, endIndex);
 
     displayImages.forEach((imageName, index) => {
+        const globalIndex = startIndex + index;
         const thumbnail = document.createElement('div');
         thumbnail.className = 'gallery-thumbnail';
-        if (index === 0) thumbnail.classList.add('active');
+        if (globalIndex === state.currentImageIndex) thumbnail.classList.add('active');
 
         const img = document.createElement('img');
         img.src = `${CONFIG.imageBasePath}${imageName}`;
-        img.alt = `LIFE X Design ${index + 1}`;
+        img.alt = `LIFE X Design ${globalIndex + 1}`;
         img.loading = 'lazy';
 
         thumbnail.appendChild(img);
-        thumbnail.addEventListener('click', () => selectGalleryImage(imageName, thumbnail));
+        thumbnail.addEventListener('click', () => selectGalleryImage(globalIndex));
 
         DOM.galleryThumbnails.appendChild(thumbnail);
     });
 }
 
-function selectGalleryImage(imageName, thumbnailEl) {
+function selectGalleryImage(index) {
+    state.currentImageIndex = index;
+    updateMainImage();
+    updateGalleryInfo();
+
+    // Update active thumbnail
+    const allThumbnails = DOM.galleryThumbnails.querySelectorAll('.gallery-thumbnail');
+    allThumbnails.forEach((thumb, i) => {
+        const globalIndex = state.currentPage * state.imagesPerPage + i;
+        thumb.classList.toggle('active', globalIndex === index);
+    });
+}
+
+function updateMainImage() {
     if (!DOM.galleryMain) return;
 
-    // Update main image
+    const imageName = state.filteredImages[state.currentImageIndex];
+    if (!imageName) return;
+
     gsap.to(DOM.galleryMain, {
         opacity: 0,
         duration: 0.2,
@@ -415,12 +527,102 @@ function selectGalleryImage(imageName, thumbnailEl) {
             });
         }
     });
+}
 
-    // Update active thumbnail
-    const allThumbnails = DOM.galleryThumbnails.querySelectorAll('.gallery-thumbnail');
-    allThumbnails.forEach(thumb => thumb.classList.remove('active'));
-    if (thumbnailEl) {
-        thumbnailEl.classList.add('active');
+function updateGalleryInfo() {
+    const infoEl = document.getElementById('gallery-info');
+    if (!infoEl) return;
+
+    const imageName = state.filteredImages[state.currentImageIndex];
+    const match = imageName?.match(/(\d+)-\d+-([NESW])-/);
+
+    const numberSpan = infoEl.querySelector('.image-number');
+    const specsSpan = infoEl.querySelector('.image-specs');
+
+    if (numberSpan) {
+        numberSpan.textContent = `${state.currentImageIndex + 1} / ${state.filteredImages.length}`;
+    }
+
+    if (specsSpan && match) {
+        const size = match[1];
+        const direction = match[2];
+        const directionMap = { N: '北', E: '東', S: '南', W: '西' };
+        specsSpan.textContent = `${size}坪 • ${directionMap[direction] || direction}向き`;
+    }
+}
+
+function navigateGallery(direction) {
+    if (direction === 'next' && state.currentImageIndex < state.filteredImages.length - 1) {
+        state.currentImageIndex++;
+    } else if (direction === 'prev' && state.currentImageIndex > 0) {
+        state.currentImageIndex--;
+    }
+
+    // Check if need to change page
+    const targetPage = Math.floor(state.currentImageIndex / state.imagesPerPage);
+    if (targetPage !== state.currentPage) {
+        state.currentPage = targetPage;
+        renderGalleryThumbnails();
+        updatePagination();
+    }
+
+    selectGalleryImage(state.currentImageIndex);
+}
+
+function changePage(direction) {
+    const totalPages = Math.ceil(state.filteredImages.length / state.imagesPerPage);
+
+    if (direction === 'next' && state.currentPage < totalPages - 1) {
+        state.currentPage++;
+    } else if (direction === 'prev' && state.currentPage > 0) {
+        state.currentPage--;
+    }
+
+    renderGalleryThumbnails();
+    updatePagination();
+}
+
+function updatePagination() {
+    const totalPages = Math.ceil(state.filteredImages.length / state.imagesPerPage);
+    const startIndex = state.currentPage * state.imagesPerPage + 1;
+    const endIndex = Math.min((state.currentPage + 1) * state.imagesPerPage, state.filteredImages.length);
+
+    const infoEl = document.getElementById('pagination-info');
+    const prevBtn = document.getElementById('pagination-prev');
+    const nextBtn = document.getElementById('pagination-next');
+
+    if (infoEl) {
+        infoEl.textContent = `${startIndex}-${endIndex} / ${state.filteredImages.length}`;
+    }
+
+    if (prevBtn) {
+        prevBtn.disabled = state.currentPage === 0;
+    }
+
+    if (nextBtn) {
+        nextBtn.disabled = state.currentPage === totalPages - 1;
+    }
+}
+
+function startSlideshow() {
+    stopSlideshow(); // Clear any existing interval
+    state.slideshowInterval = setInterval(() => {
+        navigateGallery('next');
+        // Loop back to start
+        if (state.currentImageIndex === state.filteredImages.length - 1) {
+            state.currentImageIndex = 0;
+            state.currentPage = 0;
+            renderGalleryThumbnails();
+            updatePagination();
+            selectGalleryImage(0);
+        }
+    }, 3000); // Change image every 3 seconds
+}
+
+function stopSlideshow() {
+    if (state.slideshowInterval) {
+        clearInterval(state.slideshowInterval);
+        state.slideshowInterval = null;
     }
 }
 
