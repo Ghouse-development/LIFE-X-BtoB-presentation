@@ -1,0 +1,1191 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://xs022157.xsrv.jp/mainsite_test/xmlrpc.php">
+
+  <!-- 白ロゴを先読みして切替のラグを防止 -->
+  <link rel="preload" as="image" href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/logo_new-test-1-white.png">
+
+  <style>
+    /* 1) 初回ペイント前に元<img>を不可視化（チラつき防止） */
+    .page-id-22758 #masthead .site-branding img { visibility: hidden; }
+
+    /* 2) ヘッダー反転（色） */
+    .page-id-22758 #masthead .sticky-bar { background: #40484f; }
+    .page-id-22758 #masthead.site-header { background: #40484f; }
+    .page-id-22758 .sticky-menu.sticky-bar-out #masthead .sticky-bar { border-bottom: 1px solid #40484f; }
+    .page-id-22758 #masthead a,
+    .page-id-22758 #masthead .menu a,
+    .page-id-22758 #masthead .navigation a { color: #fff !important; }
+    .page-id-22758 #masthead .menu-toggle,
+    .page-id-22758 #masthead .menu-toggle svg,
+    .page-id-22758 #masthead .icon,
+    .page-id-22758 #masthead .search-icon {
+      color: #fff !important;
+      fill: #fff !important;
+    }
+  </style>
+
+  <script>
+  // 3) できるだけ早くロゴの src/srcset を白に差し替えてから表示
+  (function () {
+    var url = 'http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/logo_new-test-1-white.png';
+    function swap() {
+      var img = document.querySelector('#masthead .site-branding img');
+      if (!img) return;
+      img.setAttribute('src', url);
+      img.setAttribute('srcset', url + ' 1x');
+      img.style.visibility = 'visible';
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', swap);
+    } else {
+      swap();
+    }
+  })();
+  </script>
+  <title>G HOUSE Architect PRO | 株式会社Gハウス</title>
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+		<!-- All in One SEO 4.8.7 - aioseo.com -->
+	<meta name="description" content="住宅設計のおける”GAP” G HOUSE Architect PRO G HOUSEArchitect PR" />
+	<meta name="robots" content="noindex, nofollow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="google-site-verification" content="wRMqhrIsEKPONM6xL6C-eua0g1W6N5H-U9-BlhRx2DA" />
+	<meta name="msvalidate.01" content="2ACCE8A76D3C09E5ED7A8EDF85A4DB13" />
+	<link rel="canonical" href="http://xs022157.xsrv.jp/mainsite_test/architect-pro" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.8.7" />
+
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QLPZE9TXP5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QLPZE9TXP5');
+</script>
+		<meta property="og:locale" content="ja_JP" />
+		<meta property="og:site_name" content="株式会社Gハウス" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="G HOUSE Architect PRO | 株式会社Gハウス" />
+		<meta property="og:description" content="住宅設計のおける”GAP” G HOUSE Architect PRO G HOUSEArchitect PR" />
+		<meta property="og:url" content="http://xs022157.xsrv.jp/mainsite_test/architect-pro" />
+		<meta property="fb:admins" content="511954802203479" />
+		<meta property="og:image" content="http://g-house.osaka.jp/wp-content/uploads/2019/02/ogimage-default.jpg" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="G HOUSE Architect PRO | 株式会社Gハウス" />
+		<meta name="twitter:description" content="住宅設計のおける”GAP” G HOUSE Architect PRO G HOUSEArchitect PR" />
+		<meta name="twitter:image" content="https://g-house.osaka.jp/wp-content/uploads/2019/02/ogimage-default.jpg" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/architect-pro#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test#listItem","position":1,"name":"\u30db\u30fc\u30e0","item":"http:\/\/xs022157.xsrv.jp\/mainsite_test","nextItem":{"@type":"ListItem","@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/architect-pro#listItem","name":"G HOUSE Architect PRO"}},{"@type":"ListItem","@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/architect-pro#listItem","position":2,"name":"G HOUSE Architect PRO","previousItem":{"@type":"ListItem","@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test#listItem","name":"\u30db\u30fc\u30e0"}}]},{"@type":"Organization","@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/#organization","name":"\u682a\u5f0f\u4f1a\u793eG\u30cf\u30a6\u30b9","description":"\u5927\u962a\u3067\u6ce8\u6587\u4f4f\u5b85\u30fb\u4e00\u6238\u5efa\u3066\u30fb\u65b0\u7bc9\u306a\u3089G\u30cf\u30a6\u30b9\u3002\u300c\u547d\u30fb\u5065\u5eb7\u30fb\u8cc7\u7523\u300d\u3092\u5b88\u308b\u4e16\u754c\u57fa\u6e96\u306e\u9ad8\u6027\u80fd\u4f4f\u5b85\u3092\u63d0\u4f9b\u3057\u3066\u3044\u307e\u3059\u3002","url":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/"},{"@type":"WebPage","@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/architect-pro#webpage","url":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/architect-pro","name":"G HOUSE Architect PRO | \u682a\u5f0f\u4f1a\u793eG\u30cf\u30a6\u30b9","description":"\u4f4f\u5b85\u8a2d\u8a08\u306e\u304a\u3051\u308b\u201dGAP\u201d G HOUSE Architect PRO G HOUSEArchitect PR","inLanguage":"ja","isPartOf":{"@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/#website"},"breadcrumb":{"@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/architect-pro#breadcrumblist"},"datePublished":"2025-08-29T09:35:07+09:00","dateModified":"2025-09-20T21:30:24+09:00"},{"@type":"WebSite","@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/#website","url":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/","name":"\u5927\u962a\u3067\u6ce8\u6587\u4f4f\u5b85\u306e\u5de5\u52d9\u5e97\u3001\u4e16\u754c\u57fa\u6e96\u306e\u9ad8\u6027\u80fd\u4f4f\u5b85\u3001\u4e00\u6238\u5efa\u3066\u306fG\u30cf\u30a6\u30b9","description":"\u5927\u962a\u3067\u6ce8\u6587\u4f4f\u5b85\u30fb\u4e00\u6238\u5efa\u3066\u30fb\u65b0\u7bc9\u306a\u3089G\u30cf\u30a6\u30b9\u3002\u300c\u547d\u30fb\u5065\u5eb7\u30fb\u8cc7\u7523\u300d\u3092\u5b88\u308b\u4e16\u754c\u57fa\u6e96\u306e\u9ad8\u6027\u80fd\u4f4f\u5b85\u3092\u63d0\u4f9b\u3057\u3066\u3044\u307e\u3059\u3002","inLanguage":"ja","publisher":{"@id":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<script type='application/javascript'  id='pys-version-script'>console.log('PixelYourSite Free version 11.1.2');</script>
+<link rel='dns-prefetch' href='//yubinbango.github.io' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="株式会社Gハウス &raquo; フィード" href="http://xs022157.xsrv.jp/mainsite_test/feed" />
+<link rel="alternate" type="application/rss+xml" title="株式会社Gハウス &raquo; コメントフィード" href="http://xs022157.xsrv.jp/mainsite_test/comments/feed" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='font-awesome-svg-styles-default-inline-css' type='text/css'>
+.svg-inline--fa {
+  display: inline-block;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+}
+</style>
+<link rel='stylesheet' id='font-awesome-svg-styles-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/font-awesome/v6.6.0/css/svg-with-js.css' type='text/css' media='all' />
+<style id='font-awesome-svg-styles-inline-css' type='text/css'>
+   .wp-block-font-awesome-icon svg::before,
+   .wp-rich-text-font-awesome-icon svg::before {content: unset;}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind/style.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-unwind-style-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind/style.min.css?ver=1.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='base-style-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/base.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='color-style-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/color.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/style.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='base-blog-style-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/base-blog.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='common-banner-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/common-banner.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='campaign-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/campaign.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='catalog-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/catalog.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='product-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/product.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='technostructure-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/technostructure.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='youtube-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/youtube.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='consultation-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/consultation.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='recruit-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/recruit.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='event-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/event.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='layout-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/page-layout.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='architect-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/page-architect.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css?ver=1.0' type='text/css' media='' />
+<link rel='stylesheet' id='fontlato-css' href='https://fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fontRoboto-css' href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C700&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fontOswald-css' href='https://fonts.googleapis.com/css2?family=Oswald%3Awght%40200%3B300%3B400%3B500%3B600%3B700&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Petit Formal Script-css' href='https://fonts.googleapis.com/css2?family=Petit+Formal+Script&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='notosansjp-css' href='https://fonts.googleapis.com/css?family=Noto+Sans+JP%3A400%2C700&#038;subset=japanese&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='notoserifjp-css' href='https://fonts.googleapis.com/css?family=Noto+Serif+JP%3A400%2C700&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Vidaloka-css' href='https://fonts.googleapis.com/css2?family=Vidaloka&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Montserrat-css' href='https://fonts.googleapis.com/css2?family=Montserrat%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700%3B800&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Cormorant SC-css' href='https://fonts.googleapis.com/css2?family=Cormorant+SC&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Philosopher-css' href='https://fonts.googleapis.com/css2?family=Philosopher&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Spectral SC-css' href='https://fonts.googleapis.com/css2?family=Spectral+SC&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Cormorant Upright-css' href='https://fonts.googleapis.com/css2?family=Cormorant+Upright%3Awght%40300%3B400%3B500%3B600%3B700&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Poiret One-css' href='https://fonts.googleapis.com/css2?family=Poiret+One&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Bad Script-css' href='https://fonts.googleapis.com/css2?family=Bad+Script&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Shippori Mincho B1-css' href='https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1%3Awght%40400%3B700&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Cormorant Garamond-css' href='https://fonts.googleapis.com/css2?family=Cormorant+Garamond%3Awght%40300%3B400%3B500%3B600%3B700&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Josefin Sans-css' href='https://fonts.googleapis.com/css2?family=Josefin+Sans%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700&#038;display=swap&#038;ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='animatecss-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/animate.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mylightboxcss-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/lightbox.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='swipercss-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/css/swiper.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-google-web-fonts-css' href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%7CMerriweather%3A400%2C700&#038;ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='pscrollbar-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/quadmenu/assets/frontend/pscrollbar/perfect-scrollbar.min.css?ver=3.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='owlcarousel-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/quadmenu/assets/frontend/owlcarousel/owl.carousel.min.css?ver=3.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-normalize-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/quadmenu/assets/frontend/css/quadmenu-normalize.css?ver=3.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-widgets-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/siteorigin-unwind-child/quadmenu-widgets.css?ver=1758078307' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/quadmenu/build/frontend/style.css?ver=3.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='quadmenu-locations-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/siteorigin-unwind-child/quadmenu-locations.css?ver=1758078307' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-includes/css/dashicons.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-css' href='https://use.fontawesome.com/releases/v6.6.0/css/all.css' type='text/css' media='all' integrity="sha384-h/hnnw1Bi4nbpD6kE7nYfCXzovi622sY5WBxww8ARKwpdLj5kUWjRuyiXaD1U2JT" crossorigin="anonymous" />
+<link rel='stylesheet' id='fancybox-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.css?ver=1760692605' type='text/css' media='screen' />
+<link rel='stylesheet' id='mts_simple_booking_front-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/mts-simple-booking-c/css/mtssb-front.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='msl-main-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/master-slider/public/assets/css/masterslider.main.css?ver=3.11.0' type='text/css' media='all' />
+<link rel='stylesheet' id='msl-custom-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/master-slider/custom.css?ver=11.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cf7cf-style-css' href='http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/cf7-conditional-fields/style.css?ver=2.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-v4shim-css' href='https://use.fontawesome.com/releases/v6.6.0/css/v4-shims.css' type='text/css' media='all' integrity="sha384-Heamg4F/EELwbmnBJapxaWTkcdX/DCrJpYgSshI5BkI7xghn3RvDcpG+1xUJt/7K" crossorigin="anonymous" />
+<!--n2css--><!--n2js--><script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=6.8.3" id="jquery-bind-first-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3" id="js-cookie-pys-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/pixelyoursite/dist/scripts/tld.min.js?ver=2.3.1" id="js-tld-js"></script>
+<script type="text/javascript" id="pys-js-extra">
+/* <![CDATA[ */
+var pysOptions = {"staticEvents":[],"dynamicEvents":[],"triggerEvents":[],"triggerEventTypes":[],"debug":"","siteUrl":"http:\/\/xs022157.xsrv.jp\/mainsite_test","ajaxUrl":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/wp-admin\/admin-ajax.php","ajax_event":"32178a061c","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","ajaxForServerEvent":"1","ajaxForServerStaticEvent":"1","useSendBeacon":"1","send_external_id":"1","external_id_expire":"180","track_cookie_for_subdomains":"1","google_consent_mode":"1","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_tiktok_consent_category":"marketing","cookiebot_google_ads_consent_category":"marketing","cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"analytics_storage":{"enabled":true,"value":"granted","filter":false},"ad_storage":{"enabled":true,"value":"granted","filter":false},"ad_user_data":{"enabled":true,"value":"granted","filter":false},"ad_personalization":{"enabled":true,"value":"granted","filter":false}},"cookie":{"disabled_all_cookie":false,"disabled_start_session_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"tracking_analytics":{"TrafficSource":"direct","TrafficLanding":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/architect-pro","TrafficUtms":[],"TrafficUtmsId":[]},"GATags":{"ga_datalayer_type":"default","ga_datalayer_name":"dataLayerPYS"},"woo":{"enabled":false},"edd":{"enabled":false},"cache_bypass":"1760692605"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=11.1.2" id="pys-js"></script>
+<link rel="https://api.w.org/" href="http://xs022157.xsrv.jp/mainsite_test/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="http://xs022157.xsrv.jp/mainsite_test/wp-json/wp/v2/pages/22758" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://xs022157.xsrv.jp/mainsite_test/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<link rel='shortlink' href='http://xs022157.xsrv.jp/mainsite_test/?p=22758' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="http://xs022157.xsrv.jp/mainsite_test/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fxs022157.xsrv.jp%2Fmainsite_test%2Farchitect-pro" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="http://xs022157.xsrv.jp/mainsite_test/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fxs022157.xsrv.jp%2Fmainsite_test%2Farchitect-pro&#038;format=xml" />
+<script>var ms_grabbing_curosr = 'http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/master-slider/public/assets/css/common/grabbing.cur', ms_grab_curosr = 'http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/master-slider/public/assets/css/common/grab.cur';</script>
+<meta name="generator" content="MasterSlider 3.11.0 - Responsive Touch Image Slider | avt.li/msf" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type='application/javascript' id='pys-config-warning-script'>console.warn('PixelYourSite: no pixel configured.');</script>
+				<style type="text/css" id="siteorigin-unwind-settings-custom" data-siteorigin-settings="true">
+					body,button,input,select,textarea { color: #333333; } h1,h2,h3,h4,h5,h6 { color: #333333; } blockquote { border-left: 3px solid #f5a23a; } abbr,acronym { border-bottom: 1px dotted #333333; }  table thead th { color: #333333; } .button,#page #infinite-handle span button,button,input[type="button"],input[type="reset"],input[type="submit"],.woocommerce #respond input#submit,.woocommerce a.button,.woocommerce button.button,.woocommerce #page #infinite-handle span button,#page #infinite-handle span .woocommerce button,.woocommerce input.button,.woocommerce.single-product .cart button { color: #333333; } .button:hover,#page #infinite-handle span button:hover,button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,.woocommerce #respond input#submit:hover,.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce #page #infinite-handle span button:hover,#page #infinite-handle span .woocommerce button:hover,.woocommerce input.button:hover,.woocommerce.single-product .cart button:hover { border-color: #f5a23a; color: #f5a23a; } .button:active,#page #infinite-handle span button:active,.button:focus,#page #infinite-handle span button:focus,button:active,button:focus,input[type="button"]:active,input[type="button"]:focus,input[type="reset"]:active,input[type="reset"]:focus,input[type="submit"]:active,input[type="submit"]:focus,.woocommerce #respond input#submit:active,.woocommerce #respond input#submit:focus,.woocommerce a.button:active,.woocommerce a.button:focus,.woocommerce button.button:active,.woocommerce #page #infinite-handle span button:active,#page #infinite-handle span .woocommerce button:active,.woocommerce button.button:focus,.woocommerce #page #infinite-handle span button:focus,#page #infinite-handle span .woocommerce button:focus,.woocommerce input.button:active,.woocommerce input.button:focus,.woocommerce.single-product .cart button:active,.woocommerce.single-product .cart button:focus { border-color: #f5a23a; color: #f5a23a; } input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"],textarea { color: #999999; } input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="number"]:focus,input[type="tel"]:focus,input[type="range"]:focus,input[type="date"]:focus,input[type="month"]:focus,input[type="week"]:focus,input[type="time"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="color"]:focus,textarea:focus { color: #333333; } a { color: #f5a23a; } a:hover,a:focus { color: #f08b0c; }  .main-navigation > div li a { color: #333333; } .main-navigation > div li:hover > a,.main-navigation > div li.focus > a { color: #333333; } .header-design-4 .main-navigation { padding: calc( 0px /2) 0; } .social-search .search-toggle .open .svg-icon-search path { fill: #333333; } .social-search .search-toggle .close .svg-icon-close path { fill: #333333; } .menu-toggle .svg-icon-menu path { fill: #333333; } #mobile-navigation ul li a { color: #333333; } #mobile-navigation ul li .dropdown-toggle .svg-icon-submenu path { fill: #333333; } .comment-navigation a,.posts-navigation a,.post-navigation a { color: #333333; } .comment-navigation a:hover,.posts-navigation a:hover,.post-navigation a:hover { border-color: #f5a23a; color: #f5a23a; }  .pagination .page-numbers { color: #333333; } .pagination .page-numbers:hover { background: #f5a23a; border-color: #f5a23a; } .pagination .dots:hover { color: #333333; } .pagination .current { background: #f5a23a; border-color: #f5a23a; }   .post-navigation a { color: #333333; } .post-navigation a:hover { color: #f5a23a; } .post-navigation a .sub-title { color: #999999; } .breadcrumbs,.woocommerce .woocommerce-breadcrumb { color: #999999; } .breadcrumbs a,.woocommerce .woocommerce-breadcrumb a { color: #333333; } .breadcrumbs a:hover,.woocommerce .woocommerce-breadcrumb a:hover { color: #f5a23a; } .breadcrumbs .breadcrumb_last,.woocommerce .woocommerce-breadcrumb .breadcrumb_last { color: #999999; } #secondary .widget .widget-title,#colophon .widget .widget-title,#masthead-widgets .widget .widget-title { color: #333333; } #secondary .widget a,#colophon .widget a,#masthead-widgets .widget a { color: #333333; } #secondary .widget a:hover,#colophon .widget a:hover,#masthead-widgets .widget a:hover { color: #f5a23a; } .widget_categories { color: #999999; } .widget_categories a { color: #333333; } .widget_categories a:hover { color: #333333; } .widget #wp-calendar caption { color: #333333; } .widget #wp-calendar tfoot #prev a,.widget #wp-calendar tfoot #next a { color: #f5a23a; } .widget #wp-calendar tfoot #prev a:hover,.widget #wp-calendar tfoot #next a:hover { color: #f08b0c; } .widget_recent_entries .post-date { color: #999999; } .recent-posts-extended h3 { color: #333333; } .recent-posts-extended h3 a:hover { color: #333333; } .recent-posts-extended time { color: #999999; } #secondary .widget_search .search-form button[type="submit"] svg,#colophon .widget_search .search-form button[type="submit"] svg,#masthead-widgets .widget_search .search-form button[type="submit"] svg { fill: #333333; } #page .widget_tag_cloud a { color: #333333; } #page .widget_tag_cloud a:hover { background: #f5a23a; border-color: #f5a23a; } #masthead { margin-bottom: 0px; }    #masthead .site-branding { padding: 0px 0; }  #masthead .site-branding .site-title a { color: #333333; } .header-design-4 #masthead .site-branding { padding: calc( 0px / 2) 0; } #masthead #masthead-widgets { margin: 0px auto; } #fullscreen-search h3 { color: #333333; } #fullscreen-search form input[type="search"] { color: #333333; } #fullscreen-search form button[type="submit"] svg { fill: #999999; }     .entry-meta span { color: #999999; } .entry-meta span a:hover { color: #f5a23a; } .entry-title { color: #333333; } .entry-title a:hover { color: #333333; } .more-link-wrapper .more-text { color: #333333; } .more-link:hover .more-text { border: 2px solid #f5a23a; color: #f5a23a; } .page-links .page-links-title { color: #333333; } .page-links .post-page-numbers { color: #333333; } .page-links .post-page-numbers:hover,.page-links .post-page-numbers.current { border-color: #f5a23a; color: #f5a23a; } .tags-list a { color: #333333; } .tags-list a:hover { background: #333333; }  .blog-layout-grid .archive-entry .more-link .more-text { color: #f5a23a; } .blog-layout-grid .archive-entry .more-link .more-text:hover { color: #333333; }  .blog-layout-masonry .archive-entry .more-link .more-text { color: #f5a23a; } .blog-layout-masonry .archive-entry .more-link .more-text:hover { color: #333333; }  .blog-layout-alternate .archive-entry .entry-content .more-link .more-text { color: #f5a23a; } .blog-layout-alternate .archive-entry .entry-content .more-link .more-text:hover { color: #333333; } .blog-layout-offset .archive-entry .entry-header .entry-time { color: #999999; } .blog-layout-offset .archive-entry .entry-offset .meta-text { color: #999999; } .blog-layout-offset .archive-entry .entry-offset a { color: #333333; } .blog-layout-offset .archive-entry .entry-offset a:hover { color: #333333; } .archive .container > .page-header,.search .container > .page-header { margin-bottom: 0px; }  .page-title { color: #333333; } .content-area .search-form button[type="submit"] svg { fill: #333333; } .yarpp-related ol li .related-post-title:hover,.related-posts-section ol li .related-post-title:hover { color: #333333; } .yarpp-related ol li .related-post-date,.related-posts-section ol li .related-post-date { color: #999999; } .author-box .author-description { color: #333333; } .author-box .author-description .post-author-title a { color: #333333; } .author-box .author-description .post-author-title a:hover { color: #333333; } .portfolio-filter-terms button { color: #999999; } .portfolio-filter-terms button:hover { color: #333333; } .portfolio-filter-terms button.active { border-bottom: 2px solid #333333; color: #333333; } .entry-thumbnail:hover .entry-overlay { border: 2px solid #999999; } .archive-project .entry-title { color: #333333; } .archive-project .entry-divider { border: solid #333333 1px; } .archive-project .entry-project-type { color: #999999; } .jetpack-portfolio-shortcode .portfolio-entry-title a { color: #333333; } .jetpack-portfolio-shortcode .portfolio-entry-title a:hover { color: #333333; } .jetpack-portfolio-shortcode .portfolio-entry-meta { color: #999999; } .jetpack-portfolio-shortcode .portfolio-entry-meta a { color: #999999; } .jetpack-portfolio-shortcode .portfolio-entry-meta a:hover { color: #f5a23a; } .comment-list li.comment { color: #333333; } .comment-list li.comment .author { color: #333333; } .comment-list li.comment .author a { color: #333333; } .comment-list li.comment .author a:hover { color: #333333; } .comment-list li.comment .date { color: #999999; } .comment-list li.comment .comment-reply-link { color: #333333; } .comment-list li.comment .comment-reply-link:hover { color: #f5a23a; } .comment-reply-title #cancel-comment-reply-link { color: #999999; } .comment-reply-title #cancel-comment-reply-link:hover { color: #f5a23a; } #commentform label { color: #333333; } #commentform .comment-notes a,#commentform .logged-in-as a { color: #333333; } #commentform .comment-notes a:hover,#commentform .logged-in-as a:hover { color: #333333; } #commentform .comment-subscription-form label { color: #333333; }   #colophon .site-info { color: #333333; } #colophon .site-info a:hover { color: #333333; }  .site-content #jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post h4 a { color: #333333; } .site-content #jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post h4 a:hover { color: #333333; } .site-content #jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post p { color: #999999; } .flexslider.featured-posts-slider .featured-posts-slides .featured-post-slide .slide-content .entry-button .button:hover,.flexslider.featured-posts-slider .featured-posts-slides .featured-post-slide .slide-content .entry-button #page #infinite-handle span button:hover,#page #infinite-handle span .flexslider.featured-posts-slider .featured-posts-slides .featured-post-slide .slide-content .entry-button button:hover { color: #333333; }@media screen and (max-width: 1170px) { .main-navigation .menu-toggle { display: block; } .main-navigation > div, .main-navigation > div ul, .main-navigation .shopping-cart { display: none; } } @media screen and (min-width: 1171px) { #mobile-navigation { display: none !important; } .main-navigation > div ul { display: block; } .main-navigation .shopping-cart { display: inline-block; } .main-navigation .menu-toggle { display: none; } }				</style>
+				<link rel="icon" href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2020/07/cropped-favicon-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2020/07/cropped-favicon-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2020/07/cropped-favicon-180x180.jpg" />
+<meta name="msapplication-TileImage" content="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2020/07/cropped-favicon-270x270.jpg" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WPMQZB7W');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PGRGXMX3');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MV4GC9ZV');</script>
+<!-- End Google Tag Manager -->
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '242218966417160');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=242218966417160&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<!-- LINE Tag Base Code -->
+<!-- Do Not Modify -->
+<script>
+(function(g,d,o){
+  g._ltq=g._ltq||[];g._lt=g._lt||function(){g._ltq.push(arguments)};
+  var h=location.protocol==='https:'?'https://d.line-scdn.net':'http://d.line-cdn.net';
+  var s=d.createElement('script');s.async=1;
+  s.src=o||h+'/n/line_tag/public/release/v1/lt.js';
+  var t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);
+    })(window, document);
+_lt('init', {
+  customerType: 'lap',
+  tagId: '99c161bd-5160-4b40-b2f7-f1994920a412'
+});
+_lt('send', 'pv', ['99c161bd-5160-4b40-b2f7-f1994920a412']);
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+       src="https://tr.line.me/tag.gif?c_t=lap&t_id=99c161bd-5160-4b40-b2f7-f1994920a412&e=pv&noscript=1" />
+</noscript>
+<!-- End LINE Tag Base Code -->
+<script>
+_lt('send', 'cv', {
+  type: 'Conversion'
+},['99c161bd-5160-4b40-b2f7-f1994920a412']);
+</script>
+<!-- TikTok Pixel Code Start -->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+  ttq.load('CV007HBC77U7U8094LK0');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+<!-- TikTok Pixel Code End -->
+</head>
+
+<body class="wp-singular page-template-default page page-id-22758 wp-theme-siteorigin-unwind wp-child-theme-siteorigin-unwind-child _masterslider _ms_version_3.11.0 css3-animations header-design-4 no-js page-layout-full-width page-layout-hide-masthead page-layout-hide-footer-widgets sticky-menu wc-columns-3">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPMQZB7W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGRGXMX3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MV4GC9ZV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+			<header id="masthead" class="site-header">
+
+			
+			<div class="top-bar">
+	<div class="container">
+
+		<div class="social-search">
+											</div>
+
+	</div><!-- .container -->
+
+	</div><!-- .top-bar -->
+<div class="main-navigation-bar sticky-bar sticky-menu">
+	<div class="container">
+		<div class="site-branding">
+			<a href="http://xs022157.xsrv.jp/mainsite_test/" rel="home">
+			<span class="screen-reader-text">Home</span><img width="2009" height="600" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/08/logo_new-test-1.png" class="attachment-full size-full" alt="" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/08/logo_new-test-1.png 1x,http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/08/logo_new-test-1.png 2x" decoding="async" fetchpriority="high" /></a>					</div><!-- .site-branding -->
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+							<button id="mobile-menu-button" class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">				<svg version="1.1" class="svg-icon-menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="32" viewBox="0 0 27 32">
+					<path d="M27.429 24v2.286q0 0.464-0.339 0.804t-0.804 0.339h-25.143q-0.464 0-0.804-0.339t-0.339-0.804v-2.286q0-0.464 0.339-0.804t0.804-0.339h25.143q0.464 0 0.804 0.339t0.339 0.804zM27.429 14.857v2.286q0 0.464-0.339 0.804t-0.804 0.339h-25.143q-0.464 0-0.804-0.339t-0.339-0.804v-2.286q0-0.464 0.339-0.804t0.804-0.339h25.143q0.464 0 0.804 0.339t0.339 0.804zM27.429 5.714v2.286q0 0.464-0.339 0.804t-0.804 0.339h-25.143q-0.464 0-0.804-0.339t-0.339-0.804v-2.286q0-0.464 0.339-0.804t0.804-0.339h25.143q0.464 0 0.804 0.339t0.339 0.804z"></path>
+				</svg>
+			</button>
+				<div class="menu-global-navi-container"><ul id="primary-menu" class="menu"><li id="menu-item-7911" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-7911"><a href="http://xs022157.xsrv.jp/mainsite_test/">ホーム</a></li>
+<li id="menu-item-7985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7985"><a href="http://xs022157.xsrv.jp/mainsite_test/first">6つの特徴</a></li>
+<li id="menu-item-10396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10396"><a href="http://xs022157.xsrv.jp/mainsite_test/technology">テクノロジー</a></li>
+<li id="menu-item-18022" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18022"><a href="http://xs022157.xsrv.jp/mainsite_test/gallery">建築実例</a>
+<ul class="sub-menu">
+	<li id="menu-item-13442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13442"><a href="http://xs022157.xsrv.jp/mainsite_test/gallery">建築実例写真</a></li>
+	<li id="menu-item-20622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20622"><a href="http://xs022157.xsrv.jp/mainsite_test/voice">オーナー様インタビュー</a></li>
+</ul>
+</li>
+<li id="menu-item-16962" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16962"><a href="http://xs022157.xsrv.jp/mainsite_test/product">商品紹介</a>
+<ul class="sub-menu">
+	<li id="menu-item-19665" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19665"><a href="http://xs022157.xsrv.jp/mainsite_test/product/hours">HOURS</a></li>
+	<li id="menu-item-19666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19666"><a href="http://xs022157.xsrv.jp/mainsite_test/product/lacie">LACIE</a></li>
+	<li id="menu-item-18679" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18679"><a href="http://xs022157.xsrv.jp/mainsite_test/product/lifeplus">LIFE+</a></li>
+	<li id="menu-item-18678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18678"><a href="http://xs022157.xsrv.jp/mainsite_test/product/life">LIFE</a></li>
+	<li id="menu-item-21662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21662"><a href="http://xs022157.xsrv.jp/mainsite_test/product/life-choose">LIFE choose</a></li>
+</ul>
+</li>
+<li id="menu-item-7995" class="pc-block menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7995"><a href="http://xs022157.xsrv.jp/mainsite_test/about">会社案内</a>
+<ul class="sub-menu">
+	<li id="menu-item-19141" class="pc-block menu-item menu-item-type-post_type menu-item-object-page menu-item-19141"><a href="http://xs022157.xsrv.jp/mainsite_test/access">アクセス</a></li>
+</ul>
+</li>
+<li id="menu-item-21152" class="sp-block menu-item menu-item-type-post_type menu-item-object-page menu-item-21152"><a href="http://xs022157.xsrv.jp/mainsite_test/about">会社案内</a></li>
+<li id="menu-item-20892" class="sp-block menu-item menu-item-type-post_type menu-item-object-page menu-item-20892"><a href="http://xs022157.xsrv.jp/mainsite_test/access">アクセス</a></li>
+<li id="menu-item-21151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21151"><a target="_blank" href="https://g-house-recruit.com/">採用情報</a></li>
+<li id="menu-item-16348" class="header-link-consultation menu-item menu-item-type-post_type menu-item-object-page menu-item-16348"><a href="http://xs022157.xsrv.jp/mainsite_test/catalog">資料請求</a></li>
+<li id="menu-item-18821" class="header-link-event menu-item menu-item-type-post_type menu-item-object-page menu-item-18821"><a href="http://xs022157.xsrv.jp/mainsite_test/event/opendays">イベント情報</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+	<div id="mobile-navigation"></div>
+			
+	</div><!-- .container -->
+</div>
+
+		</header><!-- #masthead -->
+	
+	<div id="content" class="site-content">
+		<div class="container">
+
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+			
+<article id="post-22758" class="post-22758 page type-page status-publish post">
+	
+	<div class="entry-content">
+		<div class="breadcrumbs bcn">
+			<!-- Breadcrumb NavXT 7.4.1 -->
+<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="株式会社Gハウス." href="http://xs022157.xsrv.jp/mainsite_test" class="home">HOME</a></span> &gt; <span typeof="v:Breadcrumb"><span property="v:title">G HOUSE Architect PRO</span></span>		</div>		<section class="section-architect-mv">
+  <div class="">
+    <div class="section-architect-mv-inner">
+      <img decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/mv-pc.jpg" alt="" width="1440" height="650" class="aligncenter size-full wp-image-22849 pc-block" />
+<img decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/mv-sp-1.jpg" alt="" width="1440" height="1440" class="aligncenter size-full wp-image-22930 sp-block" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/mv-sp-1.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/mv-sp-1-500x500.jpg 500w" sizes="(max-width: 1440px) 100vw, 1440px" />
+      <div class="section-architect-mv-inner-text">
+<p class="mv-subtitle">住宅設計のおける”<span>GAP</span>”</p>
+        <h2 class="pc-block">G HOUSE Architect PRO</h2>
+<h2 class="sp-block">G HOUSE<br>Architect PRO</h2>
+        <h3>圧倒的な違いを創る、設計プロフェッショナル</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-architect-intro">
+  <div class="width1190">
+    <div class="section-architect-intro-inner">
+      <div class="flex-box flex-box-column2 flex-box-architect-intro">
+        <div class="flex-box-inner">
+          <div class="flex-box-architect-intro-inner">
+            <span>Bringing the power of inspiring  <br class="sp-block">design to you.</span>
+            <!--<h2>1本の線から創る<br>人生を変える未来の暮らし</h2>
+            <p>一本の線から始まるのは、ただの図面ではありません。<br>そこに描かれるのは、家族の夢や想い、そしてこれからの物語です。<br>私たちG HOUSEの設計士は、その一線一線に情熱を込め、<br>人生を変える未来の暮らしを形にします。</p>-->
+<h2>設計力には、人生を変える<br class="sp-block">責任と可能性がある<br>だから、私たちは設計力に<br class="sp-block">妥協しない</h2>
+        <p>住まいは人生のインフラ。</p>
+        <p>設計の一つひとつの判断が、<br class="pc-block">快適性・安全性・ランニングコスト・資産価値・誇りに直結します。</p>
+        <p>G HOUSEは一本の線に責任と可能性を込め、<br>敷地のポテンシャル、性能と美、<br class="sp-block">将来の可変性まで見据えて、<br>あなたの毎日を“想像以上”に更新します。</p>
+          </div>
+        </div>
+        <div class="flex-box-inner">
+          <div class="flex-box-architect-intro-inner">
+            <figure></figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-architect-about">
+  <div class="width1190">
+    <div class="section-architect-about-inner">
+      <div class="section-architect-about-inner-title">
+        <h2>About</h2>
+      </div>
+      <div class="section-architect-about-inner-text">
+        <h3>狭き門を越えた精鋭、暮らしの創造チーム</h3>
+        <p>G HOUSE Architect PROは、<br class="sp-block">狭き門をくぐり抜けた精鋭設計士の証。</p>
+        <p>デザイン力・技術力・対話力。<br>その全てにおいて高い基準を満たした者だけが、<br>G HOUSEの設計士としてお客様の未来を描くことを許されます。</p>
+      </div>
+
+      <div class="section-architect-about-inner-image">
+        <figure></figure>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-architect-conditions">
+  <div class="width1190">
+    <div class="section-architect-conditions-inner">
+      <div class="section-architect-conditions-inner-title">
+        <h2><span> G HOUSE Architect PRO</span>に<br>必要な5つの条件</h2>
+      </div>
+
+      <div class="flex-box flex-box-column2 flex-box-architect-conditions">
+        <div class="flex-box-inner">
+          <div class="flex-box-architect-conditions-inner">
+            <div class="conditions">
+              <h3><span>第一条</span>お客様の想像を超えてこそ”プロの設計”</h3>
+              <p>間取りも外観も妥協を許さない、全てお客様の想像を超えていく</p>
+            </div>
+            <div class="conditions">
+              <h3><span>第二条</span>”間取り”を描くのではなく、<br class="sp-block">”家族の未来”を描く</h3>
+              <p>表面的な要望ではなく、その家族が大切にする価値観や理想を住まいに反映する</p>
+            </div>
+            <div class="conditions">
+              <h3><span>第三条</span>線一本に意思を込める</h3>
+              <p>一つの線が家族の未来を創るという責任を持ち、徹底的に考え抜く</p>
+            </div>
+            <div class="conditions">
+              <h3><span>第四条</span>20、30年先の暮らしを提案する</h3>
+              <p>一度きりのお家づくりだからこそ、家族の変化に寄り添い、時を経ても愛される設計を描く</p>
+            </div>
+            <div class="conditions">
+              <h3><span>第五条</span>流行を超えて普遍を創る</h3>
+              <p>一時のデザインにとどまらず、いつの時代も価値を持ち続ける住まいを目指す</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex-box-inner">
+          <div class="flex-box-architect-conditions-inner">
+            <figure></figure>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--<section class="section-architect-message">
+  <div class="width1190">
+    <div class="section-architect-message-inner">
+      <div class="section-architect-message-inner-title">
+        <h2>Reason</h2>
+      </div>
+      <div class="section-architect-message-inner-text">
+        <h3>設計力には、人生を変える<br class="sp-block">責任と可能性がある<br>だから、私たちは設計力に妥協しない</h3>
+        <p>住まいは人生のインフラ。</p>
+        <p>設計の一つひとつの判断が、快適性・安全性・ランニングコスト・資産価値・誇りに直結します。</p>
+        <p>G HOUSEは一本の線に責任と可能性を込め、<br>敷地のポテンシャル、性能と美、<br class="sp-block">将来の可変性まで見据えて、<br>あなたの毎日を“想像以上”に更新します。</p>
+      </div>
+
+      <div class="section-architect-message-inner-image">
+        <figure></figure>
+      </div>
+
+    </div>
+  </div>
+</section>-->
+
+<section class="section-architect-adviser">
+  <div class="width1190">
+    <div class="section-architect-adviser-inner">
+      <div class="section-architect-adviser-inner-title">
+        <h2>設計顧問</h2>
+<h3>谷尻 誠<span>Architect / Founder, CEO</span></h3>
+<p class="makototanijiri-text">2025年10月、日本を代表する建築家<br>谷尻 誠氏が弊社の設計顧問に就任します。</p>
+      </div>
+      <div class="section-architect-adviser-inner-image">
+        <figure></figure>
+      </div>
+      <div class="flex-box flex-box-column2 flex-box-architect-adviser">
+        <div class="flex-box-inner">
+          <div class="flex-box-architect-adviser-inner">
+            <h4>Profile</h4>
+            <p class="ja"><span>1974年</span>広島県生まれ<br>
+<span>1994年</span>本兼建築設計事務所<br>
+<span>1999年</span>HAL建築工房<br>
+<span>2000年</span>建築設計事務所suppose design office 設立<br>
+<span>2014年</span>SUPPOSE DESIGN OFFICE Co.,Ltd. 設立 共同主宰<br>
+<span>2001年-</span>穴吹デザイン専門学校非常勤講師<br>
+<span>2011年-</span>広島女学院大学　客員教授<br>
+<span>2012年-2016年</span>武蔵野美術大学 非常勤講師<br>
+<span>2014年-2016年</span>昭和女子大学 非常勤講師<br>
+<span>2015年-</span>大阪芸術大学准教授<br>
+<br>
+社食堂、絶景不動産、21世紀工務店、未来創作所、Bird bath &amp; KIOSK、tecture、toha、DAICHI、yadoを経営</p>
+          </div>
+        </div>
+        <div class="flex-box-inner">
+          <div class="flex-box-architect-adviser-inner">
+<h4>考えていること</h4>
+<p class="ja">過去に思いを馳せるという感性を持つことが出来れば、未来を想像できる。<br>
+未来は過去から連続して出来ている &#8220;今&#8221; の積み重ねで、その積み重ねを僕たちは文化や歴史と呼ぶ。その積み重ねをぼくたちは設計していきたい。</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--<section class="section-architect-case">
+  <div class="width1320">
+    <div class="section-architect-case-inner">
+      <div class="section-architect-case-inner-title">
+        <h2>CASE</h2>
+      </div>
+      <div class="section-architect-case-inner-text">
+        <h3>設計力には、人生を変える責任と可能性がある<br>だから、私たちは設計力に妥協しない</h3>
+      </div>
+
+      <div class="section-architect-case-common">
+        <div class="flex-box flex-box-column2 flex-box-architect-case">
+          <div class="flex-box-inner">
+            <div class="flex-box-architect-case-inner case01">
+              <h3>case01</h3>
+              <img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/estate01.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22862" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/estate01.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/estate01-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" />
+              <img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/down-arrow.png" alt="" width="512" height="512" class="arrow-down aligncenter size-full wp-image-22835" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/down-arrow.png 512w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/down-arrow-500x500.png 500w" sizes="auto, (max-width: 512px) 100vw, 512px" />
+              <h4>一般の設計士の場合</h4>
+              <div class="flex-box flex-box-column2 flex-box-architect-case-detail">
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_01">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22812" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_01">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22812" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+              </div>
+
+              <h4>G HOUSEの設計士の場合</h4>
+              <div class="flex-box flex-box-column2 flex-box-architect-case-detail">
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_01">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/inside02.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/inside02.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22865" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/inside02.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/inside02-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_01">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/outside02.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/outside02.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22866" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/outside02.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/outside02-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="flex-box-inner">
+            <div class="flex-box-architect-case-inner case01">
+              <h3>case02</h3>
+              <img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/estate02.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22863" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/estate02.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/estate02-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" />
+              <img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/down-arrow.png" alt="" width="512" height="512" class="arrow-down aligncenter size-full wp-image-22835" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/down-arrow.png 512w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/down-arrow-500x500.png 500w" sizes="auto, (max-width: 512px) 100vw, 512px" />
+              <h4>一般の設計士の場合</h4>
+              <div class="flex-box flex-box-column2 flex-box-architect-case-detail">
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22812" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22812" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01-before-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+              </div>
+
+              <h4>G HOUSEの設計士の場合</h4>
+              <div class="flex-box flex-box-column2 flex-box-architect-case-detail">
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/inside01.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/inside01.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22867" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/inside01.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/inside01-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/outside01.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/outside01.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22868" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/outside01.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/outside01-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>-->
+
+
+<section class="section-architect-case section-architect-case_ver2">
+  <div class="width1320">
+    <div class="section-architect-case-inner">
+      <div class="section-architect-case-inner-title">
+        <h2>CASE</h2>
+      </div>
+      <div class="section-architect-case-inner-text">
+        <h3>設計が変われば暮らしはここまで変わる<br>敷地のポテンシャルは、設計で引き出す</h3>
+      </div>
+
+      <div class="section-architect-case-common_ver2">
+        <h3>CASE01</h3>
+        <div class="flex-box flex-box-column2 flex-box-architect-case_ver2">
+          <div class="flex-box-inner">
+            <div class="flex-box-architect-case-inner case01">
+              <h4 class="estateinfo_ver">土地情報</h4>
+              <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_01-1-1.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_01-1-1.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22979" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_01-1-1.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_01-1-1-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+              <div class="estate-detail">
+                <h5>建ぺい率</h5>
+                <p>60%</p>
+                <h5>容積率</h5>
+                <p>200%</p>
+                <h5>用途地域</h5>
+                <p>第一種住居専用地域</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-box-inner">
+            <div class="flex-box-architect-case-inner case01">
+              <h4 class="normal-architect_ver">一般の設計士の場合</h4>
+              <div class="flex-box flex-box-column2 flex-box-architect-case-detail">
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_02-1-1.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_02-1-1.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22963" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_02-1-1.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_02-1-1-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_03-1-1.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_03-1-1.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22964" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_03-1-1.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_03-1-1-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="pro-architect_ver">G HOUSEの設計士の場合</h4>
+              <div class="flex-box flex-box-column2 flex-box-architect-case-detail">
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_05-madori.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_05-madori.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22986" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_05-madori.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_05-madori-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_05-outside.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_05-outside.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22984" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_05-outside.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case01_05-outside-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-architect-case-common_ver2 case002">
+        <h3>CASE02</h3>
+        <div class="flex-box flex-box-column2 flex-box-architect-case_ver2">
+          <div class="flex-box-inner">
+            <div class="flex-box-architect-case-inner case01">
+              <h4 class="estateinfo_ver">土地情報</h4>
+              <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_01-1.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_01-1.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22936" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_01-1.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_01-1-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+              <div class="estate-detail">
+                <h5>建ぺい率</h5>
+                <p>50%</p>
+                <h5>容積率</h5>
+                <p>100%</p>
+                <h5>用途地域</h5>
+                <p>第一種低層住居専用地域</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-box-inner">
+            <div class="flex-box-architect-case-inner case01">
+              <h4 class="normal-architect_ver">一般の設計士の場合</h4>
+              <div class="flex-box flex-box-column2 flex-box-architect-case-detail">
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_02.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_02.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22900" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_02.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_02-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_03.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_03.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22901" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_03.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_03-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="pro-architect_ver">G HOUSEの設計士の場合</h4>
+              <div class="flex-box flex-box-column2 flex-box-architect-case-detail">
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_04.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_04.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22902" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_04.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_04-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+                <div class="flex-box-inner">
+                  <div class="flex-box-architect-case-detail-inner case_02">
+                    <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_05.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_05.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22915" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_05.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/case02_05-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="section-architect-works">
+  <div class="width1190_">
+    <div class="section-architect-works-inner">
+      <div class="section-architect-works-inner-title">
+        <h2>WORKS</h2>
+      </div>
+      <div class="section-architect-works-inner-text">
+        <p>ここに描かれたのは、<br class="sp-block">数字や性能ではなく“物語”です。</p>
+        <p>設計士とお客様が共に紡いだ、<br class="sp-block">唯一無二の暮らしのかたち。</p>
+        <p>どの一邸にも、<br class="sp-block">笑顔と涙のドラマが宿っています。</p>
+      </div>
+
+      <div class="swiper mySwiper-lifechoose">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-01.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-01.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22881" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-01.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-01-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-024.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-024.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22976" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-024.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-024-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-02.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-02.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22882" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-02.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-02-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-023.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-023.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22975" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-023.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-023-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-03.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-03.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22883" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-03.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-03-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-022.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-022.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22974" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-022.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-022-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-04.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-04.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22884" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-04.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-04-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-021.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-021.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22973" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-021.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-021-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-05.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-05.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22885" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-05.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-05-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-020.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-020.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22972" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-020.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-020-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-06.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-06.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22886" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-06.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-06-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-019.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-019.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22971" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-019.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-019-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-07.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-07.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22887" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-07.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-07-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-018.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-018.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22970" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-018.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-018-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-08.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-08.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22888" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-08.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-08-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-017.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-017.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22969" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-017.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-017-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-09.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-09.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22889" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-09.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-09-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-016.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-016.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22968" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-016.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-016-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-010.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-010.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22890" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-010.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-010-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-011.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-011.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22891" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-011.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-011-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-012.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-012.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22892" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-012.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-012-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+<div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-015.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-015.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22967" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-015.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-015-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-014.jpg"><img loading="lazy" decoding="async" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-014.jpg" alt="" width="1440" height="960" class="aligncenter size-full wp-image-22893" srcset="http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-014.jpg 1440w, http://xs022157.xsrv.jp/mainsite_test/wp-content/uploads/2025/09/works_architect-014-263x174.jpg 263w" sizes="auto, (max-width: 1440px) 100vw, 1440px" /></a>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+
+    </div>
+  </div>
+</section>
+
+<section class="section-architect-contact">
+  <div class="width1190">
+    <div class="section-architect-contact-inner">
+      <div class="section-architect-contact-inner-title">
+        <h2>CONTACT</h2>
+      </div>
+      <div class="section-architect-works-inner-text">
+        <p>理想から離れたプランを、<br>理想&#8221;以上&#8221;へ私たちが変えてみせます。</p>
+        <p>まずはお気軽にご相談ください。</p>
+      </div>
+      
+
+<div class="wpcf7 no-js" id="wpcf7-f22947-p22758-o1" lang="ja" dir="ltr" data-wpcf7-id="22947">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/mainsite_test/architect-pro#wpcf7-f22947-p22758-o1" method="post" class="wpcf7-form init h-adr" aria-label="コンタクトフォーム" enctype="multipart/form-data" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="22947" /><input type="hidden" name="_wpcf7_version" value="6.1.1" /><input type="hidden" name="_wpcf7_locale" value="ja" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f22947-p22758-o1" /><input type="hidden" name="_wpcf7_container_post" value="22758" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" /><input type="hidden" name="_wpcf7cf_hidden_group_fields" value="[]" /><input type="hidden" name="_wpcf7cf_hidden_groups" value="[]" /><input type="hidden" name="_wpcf7cf_visible_groups" value="[]" /><input type="hidden" name="_wpcf7cf_repeaters" value="[]" /><input type="hidden" name="_wpcf7cf_steps" value="{}" /><input type="hidden" name="_wpcf7cf_options" value="{&quot;form_id&quot;:22947,&quot;conditions&quot;:[],&quot;settings&quot;:{&quot;animation&quot;:&quot;yes&quot;,&quot;animation_intime&quot;:200,&quot;animation_outtime&quot;:200,&quot;conditions_ui&quot;:&quot;normal&quot;,&quot;notice_dismissed&quot;:false}}" /><input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</fieldset>
+<table class="wpcf7-form-table">
+  <tr>
+    <th><label for="y-name-sei"><span class="required">必須</span><br>お名前</label></th>
+    <td class="form-name"><span class="form-name_sei">姓</span><span class="wpcf7-form-control-wrap" data-name="your-name-sei"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="y-name-sei" aria-required="true" aria-invalid="false" placeholder="" value="" type="text" name="your-name-sei" /></span><span class="form-name_mei">名</span><span class="wpcf7-form-control-wrap" data-name="your-name_mei"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="y-name-mei" aria-required="true" aria-invalid="false" placeholder="" value="" type="text" name="your-name_mei" /></span></td>
+  </tr>
+
+  <tr>
+    <th><label for="y-name-sei_kana"><span class="required">必須</span><br>フリガナ</label></th>
+    <td class="form-name_kana"><span class="form-name_sei_kana">セイ</span><span class="wpcf7-form-control-wrap" data-name="your-name-sei_kana"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="y-name-sei_kana" aria-required="true" aria-invalid="false" placeholder="" value="" type="text" name="your-name-sei_kana" /></span><span class="form-name_mei_kana">メイ</span><span class="wpcf7-form-control-wrap" data-name="your-name_mei_kana"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="y-name-mei_kana" aria-required="true" aria-invalid="false" placeholder="" value="" type="text" name="your-name_mei_kana" /></span></td>
+  </tr>
+
+  <tr>
+    <th><label for="y-email"><span class="required">必須</span><br>メールアドレス</label></th>
+    <td><span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" id="y-email" aria-required="true" aria-invalid="false" placeholder="sample@g-house.osaka.jp" value="" type="email" name="your-email" /></span></td>
+  </tr>
+
+  <tr>
+    <th><label for="y-email_confirm"><span class="required">必須</span><br>メールアドレス確認用</label></th>
+    <td><span class="wpcf7-form-control-wrap" data-name="your-email_confirm"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" id="y-email_confirm" aria-required="true" aria-invalid="false" placeholder="sample@g-house.osaka.jp" value="" type="email" name="your-email_confirm" /></span><br><span class="form-caution">※確認のためもう一度同じメールアドレスを入力してください。</span></td>
+  </tr>
+
+  <tr>
+    <th><label for="y-tel"><span class="required">必須</span><br>電話番号</label></th>
+    <td><span class="wpcf7-form-control-wrap" data-name="your-tel"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel" id="y-tel" aria-required="true" aria-invalid="false" placeholder="000-0000-0000" value="" type="tel" name="your-tel" /></span></td>
+  </tr>
+
+		<span class="p-country-name" style="display:none;">Japan</span>
+	<tr>
+		<th><label for="y-zipcode"><span class="required">必須</span><br>郵便番号</label></th>
+		<td><span class="wpcf7-form-control-wrap" data-name="your-zipcode"><input size="8" maxlength="400" minlength="7" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required p-postal-code" id="y-zipcode" aria-required="true" aria-invalid="false" placeholder="535-0022" value="" type="text" name="your-zipcode" /></span></td>
+	</tr>
+
+	<tr>
+		<th><label for="y-address"><span class="required">必須</span><br>住所</label></th>
+		<td><span class="wpcf7-form-control-wrap" data-name="your-address"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required p-region p-locality p-street-address p-extended-address" id="y-address" aria-required="true" aria-invalid="false" placeholder="大阪市旭区新森2丁目23-12" value="" type="text" name="your-address" /></span><br><span class="form-caution">※上の郵便番号を入力すると自動で住所が表示されます。続きの住所を記入下さい。
+<br>※お預かりいたしました住所にカタログを郵送いたします。マンション・アパートにお住まいの際は、建物名・部屋番号までご記入ください。</span></td>
+	</tr>
+
+<tr>
+    <th><span class="required">必須</span><br>当社の事を、どちらでお知りになりましたか?</th>
+    <td><span class="wpcf7-form-control-wrap" data-name="your-know"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required" id="y-know"><span class="wpcf7-list-item first"><label><input type="checkbox" name="your-know[]" value="Instagram広告" /><span class="wpcf7-list-item-label">Instagram広告</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="Facebook広告" /><span class="wpcf7-list-item-label">Facebook広告</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="TikTok広告" /><span class="wpcf7-list-item-label">TikTok広告</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="その他WEB広告" /><span class="wpcf7-list-item-label">その他WEB広告</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="Gハウス Instagram" /><span class="wpcf7-list-item-label">Gハウス Instagram</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="GハウスYouTubeチャンネル" /><span class="wpcf7-list-item-label">GハウスYouTubeチャンネル</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="GハウスTikTok" /><span class="wpcf7-list-item-label">GハウスTikTok</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="YouTube動画(ウィンウィンホーム)" /><span class="wpcf7-list-item-label">YouTube動画(ウィンウィンホーム)</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="YouTube動画(ホームランディック)" /><span class="wpcf7-list-item-label">YouTube動画(ホームランディック)</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="CM(YouTube CM)" /><span class="wpcf7-list-item-label">CM(YouTube CM)</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="スーモ" /><span class="wpcf7-list-item-label">スーモ</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="ネット検索" /><span class="wpcf7-list-item-label">ネット検索</span></label></span><span class="wpcf7-list-item"><label><input type="checkbox" name="your-know[]" value="知人の紹介" /><span class="wpcf7-list-item-label">知人の紹介</span></label></span><span class="wpcf7-list-item last"><label><input type="checkbox" name="your-know[]" value="その他" /><span class="wpcf7-list-item-label">その他</span></label></span></span></span><br><span class="form-caution">※複数選択可能です。</span></td>
+  </tr>
+
+  <tr>
+		<th><label for="y-file"><span class="optional">任意</span><br>お持ちのプラン情報</label></th>
+		<td><span class="wpcf7-form-control-wrap" data-name="your-file"><input size="40" class="wpcf7-form-control wpcf7-file wpcf7-validates-as-required your-file" id="y-file" accept=".jpg,.jpeg,.png,.gif,.pdf" aria-required="true" aria-invalid="false" type="file" name="your-file" /></span><br><span class="form-caution">※jpg・png・PDF形式に対応しています。それ以外の形式では送信が出来ません。<br>※ファイルサイズが5MB以下のものを添付ください。</span></td>
+	</tr>
+
+
+
+</table><!-- .recruit-entry end -->
+
+<span class="required">必須</span>
+<p class="wpcf7-acceptance font-bold"><span class="wpcf7-form-control-wrap" data-name="your-acceptance"><span class="wpcf7-form-control wpcf7-acceptance"><span class="wpcf7-list-item"><label><input type="checkbox" name="your-acceptance" value="1" id="y-acceptance" aria-invalid="false" /><span class="wpcf7-list-item-label">プライバシーポリシーに同意する</span></label></span></span></span>
+<ul>
+  <li>入力内容の確認画面は表示されませんので、お間違いがないか最終確認をお願いいたします。</li>
+<li>送信の前に、当サイトの<a href="https://g-house.osaka.jp/policy" target="blank">プライバシーポリシー</a>をご確認後、同意して頂ける方はチェックマークを付けて下さい。</li>
+  <li>お問い合わせいただきました後、2営業日以内に自動返信メール・もしくは担当者からの連絡がない場合はメールが弊社まで届いていない場合がございます。お手数をおかけいたしますがその際は電話で直接のご連絡をよろしくお願いいたします。</li>
+</ul>
+</p>
+
+<div class="btn"><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="送信する" /></div><p style="display: none !important;" class="akismet-fields-container" data-prefix="_wpcf7_ak_"><label>&#916;<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="_wpcf7_ak_js" value="57"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+
+    </div>
+  </div>
+</section>	</div><!-- .entry-content -->
+
+</article><!-- #post-## -->
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+		</div><!-- .container -->
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer ">
+
+					<div class="container">
+							</div>
+		
+<div class="footer-formart">
+<div class="footer-formart-inner">
+	<div class="">
+		<p>株式会社 Gハウス</p>
+		<div class="access-btn">
+			<a href="http://xs022157.xsrv.jp/mainsite_test/access" class="access-btn-inner">オフィス情報はこちら ▶︎</a>
+		</div>
+		<div class="contact-btn">
+			<a href="http://xs022157.xsrv.jp/mainsite_test/contact" class="access-btn-inner">お問合せフォームはこちら ▶︎</a>
+		</div>
+	</div>
+	<div class="fotter-sns-pc">
+		<div class="flex-box flex-box-column4 flex-box-sns">
+			<div class="flex-box-inner">
+				<div class="sns-circle">
+					<a href="https://www.youtube.com/channel/UCSmf8M3OWICtzGO2_KAc78Q" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+				</div>
+			</div>
+			
+			<div class="flex-box-inner">
+				<div class="sns-circle">
+					<a href="https://www.instagram.com/ghouse_osaka/?hl=ja" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+				</div>
+			</div>
+			
+			<div class="flex-box-inner">
+				<div class="sns-circle">
+					<a href="https://www.tiktok.com/@ghouse.official?lang=ja-JP" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+				</div>
+			</div>
+			
+			<div class="flex-box-inner">
+				<div class="sns-circle">
+					<a href="https://line.me/R/ti/p/@993cmrdi" target="_blank"><i class="fa-brands fa-line"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="policy-link">
+		<a href="https://g-house.osaka.jp/policy">プライバシーポリシー</a>
+	</div>
+		<div class="site-info">
+	    <div class="container">
+	      	      &copy; 2025 G HOUSE Co.,Ltd.
+	    </div><!-- .container -->
+	  </div><!-- .site-info -->
+		</div> <!-- footer-formart-inner -->
+</div> <!-- footer-formart -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+	<div id="scroll-to-top">
+		<span class="screen-reader-text">Scroll to top</span>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="55" height="32" viewBox="0 0 55 32">
+				<path fill="#fff" d="M50.276 32l-22.829-22.829-22.829 22.829-4.553-4.553 27.382-27.415 27.415 27.415z"></path>
+			</svg>
+				</div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/mainsite_test\/*"},{"not":{"href_matches":["\/mainsite_test\/wp-*.php","\/mainsite_test\/wp-admin\/*","\/mainsite_test\/wp-content\/uploads\/*","\/mainsite_test\/wp-content\/*","\/mainsite_test\/wp-content\/plugins\/*","\/mainsite_test\/wp-content\/themes\/siteorigin-unwind-child\/*","\/mainsite_test\/wp-content\/themes\/siteorigin-unwind\/*","\/mainsite_test\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- User Heat Tag -->
+<script type="text/javascript">
+(function(add, cla){window['UserHeatTag']=cla;window[cla]=window[cla]||function(){(window[cla].q=window[cla].q||[]).push(arguments)},window[cla].l=1*new Date();var ul=document.createElement('script');var tag = document.getElementsByTagName('script')[0];ul.async=1;ul.src=add;tag.parentNode.insertBefore(ul,tag);})('//uh.nakanohito.jp/uhj2/uh.js', '_uhtracker');_uhtracker({id:'uh0n79Te5d'});
+</script>
+<!-- End User Heat Tag --><script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.1" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2025-08-05 08:50:03+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"ja_JP"},"This contact form is placed in the wrong place.":["\u3053\u306e\u30b3\u30f3\u30bf\u30af\u30c8\u30d5\u30a9\u30fc\u30e0\u306f\u9593\u9055\u3063\u305f\u4f4d\u7f6e\u306b\u7f6e\u304b\u308c\u3066\u3044\u307e\u3059\u3002"],"Error:":["\u30a8\u30e9\u30fc:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "http:\/\/xs022157.xsrv.jp\/mainsite_test\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.1" id="contact-form-7-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/js/swiper.min.js?ver=1.0" id="swiper-js"></script>
+<script type="text/javascript" src="https://yubinbango.github.io/yubinbango/yubinbango.js" id="yubinbango-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/js/lightbox-plus-jquery.min.js?ver=1.0" id="mylightbox-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/js/myscript.js?ver=1.0" id="myscript-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind-child/mycode/js/heatmap.js?ver=1.0" id="heatmap-js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js" id="chartjs-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind/js/jquery.fitvids.min.js?ver=1.1" id="jquery-fitvids-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind/js/unwind.min.js?ver=1.4.6" id="siteorigin-unwind-script-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/themes/siteorigin-unwind/js/skip-link-focus-fix.min.js?ver=20130115" id="siteorigin-unwind-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/quadmenu/assets/frontend/pscrollbar/perfect-scrollbar.jquery.min.js?ver=3.2.7" id="pscrollbar-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/quadmenu/assets/frontend/owlcarousel/owl.carousel.min.js?ver=3.2.7" id="owlcarousel-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" id="quadmenu-js-extra">
+/* <![CDATA[ */
+var quadmenu = {"ajaxurl":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/wp-admin\/admin-ajax.php","gutter":"30"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/quadmenu/build/frontend/index.js?ver=64a0778cf68e89eed44f" id="quadmenu-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/easy-fancybox/vendor/purify.min.js?ver=1760692605" id="fancybox-purify-js"></script>
+<script type="text/javascript" id="jquery-fancybox-js-extra">
+/* <![CDATA[ */
+var efb_i18n = {"close":"Close","next":"Next","prev":"Previous","startSlideshow":"Start slideshow","toggleSize":"Toggle size"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.js?ver=1760692605" id="jquery-fancybox-js"></script>
+<script type="text/javascript" id="jquery-fancybox-js-after">
+/* <![CDATA[ */
+var fb_timeout, fb_opts={'autoScale':true,'showCloseButton':true,'margin':20,'pixelRatio':'false','centerOnScroll':false,'enableEscapeButton':true,'overlayShow':true,'hideOnOverlayClick':true,'overlayOpacity':0.4,'minVpHeight':320,'disableCoreLightbox':'true','enableBlockControls':'true','fancybox_openBlockControls':'true' };
+if(typeof easy_fancybox_handler==='undefined'){
+var easy_fancybox_handler=function(){
+jQuery([".nolightbox","a.wp-block-file__button","a.pin-it-button","a[href*='pinterest.com\/pin\/create']","a[href*='facebook.com\/share']","a[href*='twitter.com\/share']"].join(',')).addClass('nofancybox');
+jQuery('a.fancybox-close').on('click',function(e){e.preventDefault();jQuery.fancybox.close()});
+/* IMG */
+						var unlinkedImageBlocks=jQuery(".wp-block-image > img:not(.nofancybox,figure.nofancybox>img)");
+						unlinkedImageBlocks.wrap(function() {
+							var href = jQuery( this ).attr( "src" );
+							return "<a href='" + href + "'></a>";
+						});
+var fb_IMG_select=jQuery('a[href*=".jpg" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".jpg" i]:not(.nofancybox),a[href*=".jpeg" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".jpeg" i]:not(.nofancybox),a[href*=".png" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".png" i]:not(.nofancybox),a[href*=".webp" i]:not(.nofancybox,li.nofancybox>a,figure.nofancybox>a),area[href*=".webp" i]:not(.nofancybox)');
+fb_IMG_select.addClass('fancybox image').attr('rel','gallery');
+jQuery('a.fancybox,area.fancybox,.fancybox>a').each(function(){jQuery(this).fancybox(jQuery.extend(true,{},fb_opts,{'transition':'elastic','easingIn':'easeOutBack','transitionOut':'elastic','easingOut':'easeInBack','opacity':false,'hideOnContentClick':false,'titleShow':false,'titlePosition':'over','titleFromAlt':false,'showNavArrows':true,'enableKeyboardNav':true,'cyclic':false,'mouseWheel':'false'}))});
+};};
+jQuery(easy_fancybox_handler);jQuery(document).on('post-load',easy_fancybox_handler);
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/easy-fancybox/vendor/jquery.easing.js?ver=1.4.1" id="jquery-easing-js"></script>
+<script type="text/javascript" id="wpcf7cf-scripts-js-extra">
+/* <![CDATA[ */
+var wpcf7cf_global_settings = {"ajaxurl":"http:\/\/xs022157.xsrv.jp\/mainsite_test\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/cf7-conditional-fields/js/scripts.js?ver=2.6.3" id="wpcf7cf-scripts-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LfYW1IbAAAAAM7Mfh1H1mk-odAWeIf8c7AY2g-_&amp;ver=3.0" id="google-recaptcha-js"></script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-before">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {
+    "sitekey": "6LfYW1IbAAAAAM7Mfh1H1mk-odAWeIf8c7AY2g-_",
+    "actions": {
+        "homepage": "homepage",
+        "contactform": "contactform"
+    }
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.1.1" id="wpcf7-recaptcha-js"></script>
+<script defer type="text/javascript" src="http://xs022157.xsrv.jp/mainsite_test/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1757470218" id="akismet-frontend-js"></script>
+<div id="floating-menu">
+	<div class="flex-box flex-box-column3 flex-floating">
+		<!--<div class="flex-box-inner inner-line">
+			<a href="https://line.me/R/ti/p/%40346slilu" target="_blank" rel="nofollow"><i class="fab fa-line"></i><span class="floating-text">LINE</span></a>
+		</div> .flex-box-inner end -->
+		<!--<div class="flex-box-inner inner-instagram">
+			<a href="https://www.instagram.com/ghouse_osaka/?hl=ja" target="_blank" rel="nofollow"><i class="fab fa-instagram"></i><span class="floating-text">Instagram</span></a>
+		</div> .flex-box-inner end -->
+		<!--<div class="flex-box-inner inner-mail">
+			<a href="http://xs022157.xsrv.jp/mainsite_test/contact/"><i class="fas fa-envelope"></i><span class="floating-text">Mail</span></a>
+		</div> .flex-box-inner end -->
+		<!--<div class="flex-box-inner inner-tel">
+			<a href="tel:0669540648"><i class="fas fa-phone"></i><span class="floating-text">Tel</span></a>
+		</div> .flex-box-inner end -->
+
+		<!--<div class="flex-box-inner inner-catalog">
+			<a href="https://g-house-recruit.com/" target="blank"><i class="fa-solid fa-user"></i><span class="floating-text">採用情報</span></a>
+		</div>--><!-- .flex-box-inner end -->
+
+		<div class="flex-box-inner inner-consultation">
+			<a href="https://g-house.osaka.jp/catalog"><i class="fas fa-book-open"></i><span class="floating-text">資料請求</span></a>
+		</div><!-- .flex-box-inner end -->
+
+		<div class="flex-box-inner inner-modelhouse">
+			<a href="https://g-house.osaka.jp/event/opendays"><i class="far fa-calendar-alt"></i><span class="floating-text">モデルハウス見学説明会</span></a>
+		</div><!-- .flex-box-inner end -->
+
+	</div><!-- .flex-box flex-box-column3 flex-floating end -->
+</div><!-- #floating-menu end -->
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+  location = 'http://xs022157.xsrv.jp/mainsite_test/thanks/';
+}, false );
+</script>
+<!-- KASIKA TRACKING CODE -->
+<script type="text/javascript" src="//panda.kasika.io/tag-manager/?pid=6E4EDE9D50A3BF54D53A7BA049E0AF1F"></script>
+<!-- KASIKA TRACKING CODE -->
+ <!-- このタグは削除しないでください。 - Gハウス - このタグは削除しないでください。-->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KJX4GGSL');</script>
+<script type="text/javascript">(function(d,u){var b=d.getElementsByTagName("script")[0],j=d.createElement("script");j.async=true;j.src=u;b.parentNode.insertBefore(j,b);})(document,"//img.ak.impact-ad.jp/ut/ee863d4b8d59df22_5034.js");</script>
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1970943369942313');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1970943369942313&ev=PageView&noscript=1"/>
+</noscript>
+<!-- このタグは削除しないでください。 - Gハウス - このタグは削除しないでください。-->
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Disk: Enhanced  を使用したページ キャッシュ
+
+Served from: xs022157.xsrv.jp @ 2025-10-17 18:16:45 by W3 Total Cache
+-->

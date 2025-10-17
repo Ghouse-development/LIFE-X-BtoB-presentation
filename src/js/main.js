@@ -380,8 +380,8 @@ function renderGalleryThumbnails() {
     // Clear existing thumbnails
     DOM.galleryThumbnails.innerHTML = '';
 
-    // Create thumbnails (show first 12)
-    const displayImages = state.galleryImages.slice(0, 12);
+    // Create thumbnails (show first 18 design types)
+    const displayImages = state.galleryImages.slice(0, 18);
 
     displayImages.forEach((imageName, index) => {
         const thumbnail = document.createElement('div');
