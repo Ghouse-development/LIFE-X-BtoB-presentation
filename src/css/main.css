@@ -530,6 +530,39 @@ p {
 }
 
 /* Section 5: Gallery */
+.video-container {
+    margin-bottom: var(--spacing-lg);
+    background-color: var(--color-bg-dark);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: var(--shadow-lg);
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-caption {
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    margin-top: var(--spacing-sm);
+    font-weight: 500;
+}
+
 .gallery-controls {
     display: flex;
     justify-content: space-between;
