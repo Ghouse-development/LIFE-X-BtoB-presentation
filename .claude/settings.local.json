@@ -15,7 +15,9 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git branch:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "WebFetch(domain:www.senbokuhome.co.jp)",
+      "Bash(dir \"C:\\claudecode\\LIFEーX-BtoB presentation\\resources\\image\\sozai\" /b)"
     ],
     "deny": [],
     "ask": []
